@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body       {background-color: rgb(207, 207, 207);
+            font-size: 20px;
+            font-family: 'Courgette', cursive;}
+
+h1         {color : rgb(79, 29, 161);}
+
+#title     {text-align: center;}
+
+p          {font-size: 1.5em;}
+
+    a      {display:block;
+            width: 100%;
+            padding: 25px;
+            background-color:rgb(134, 195, 230);
+            box-sizing: border-box;
+            text-align: center;
+            color:blue;
+            font-style: 2em;
+            font-weight: bold;
+            transition: all 2s;}
+
+a:hover    {background-color: rgb(0, 183, 255);
+            color: rgb(15, 15, 139);}
+
+#img        {width: 50%;
+            margin: auto;}
+
+#space     {background-color: rgb(134, 195, 230);
+            width: 50%;
+            margin: auto;
+            border: 20px solid rgb(56, 56, 56);}
+
+#text      {padding: 70px;}
+
+    h3     {color:rgb(105, 40, 209);
+            text-align: center;}
+
+/* yadadahmeeen */
+
+#space div.list 
+            {border: 2px solid black;
+            display: inline-block;
+            width: 49%;
+            background-color: blanchedalmond;}
+
+#space div.list h3 
+            {background-color: cadetblue;
+            color: darkblue;
+            padding: 10px;}
+
+#space div.list ul, #space div.list ol 
+            {margin-block: 10px;}
+
+#space div.list li 
+            {margin-bottom: 10px;}
+
+
+
+#text div.list ul li:nth-child(2) {
+            font-weight: bold;}
+
+#link      {padding-top: 20px;}
+
